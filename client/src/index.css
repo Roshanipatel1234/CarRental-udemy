@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: orangered;
+
+}
+.btn1 {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 8px 20px !important; /* More balanced padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.btn1:hover {
+  background-color: orangered !important;
+  color: white !important;
+}
+
+.btn1:focus {
+  outline: none !important; /* Remove focus outline properly */
+  box-shadow: 0 0 5px rgba(255, 69, 0, 0.5) !important; /* Subtle glow effect */
+}
+
+.spinner{
+  position: absolute;
+  top:50%;
+  left:50%;
+  z-index: 1;
+}
+p{
+  margin: 5px !important;
+  text-align: bold;
+  padding: 0;
+}
+.header{
+  padding: 10px;
+}
+.header .ant-btn{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 8px 20px !important; /* More balanced padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+.content{
+  min-height: 90vh;
+
+}
+.footer{
+  background-color: rgb(78, 128, 171);
+  padding: 10px
+}
+.car{
+  border-radius: 5px;
+ margin-top: 100px;
+ height: 170px;
+ transition: 0.3s;
+
+}
+.car:hover{
+  height: 220px;
+}
+.car:hover>.car-content{
+  opacity: 1;
+  transform: translateY(-30px);
+}
+.carimg{
+  height:180px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+.car-content{
+  transform: translateY(-200px);
+  opacity: 0;
+}
+/*login */
+.login{
+  background-color: black;
+  padding-top:50px;
+  min-height: 100vh;
+
+}
+.login label,.login h1{
+  color: white !important;
+  opacity: 0.6;
+
+}
+.login-form{
+  background-color: #1F1F1F;
+}
+.login-form input{
+  background-color: #333333;
+  border:none !important;
+}
+
+/* Make image responsive */
+.login-image {
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 10px;
+}
+.login-logo {
+  position: absolute;
+  top: 70%; /* Move it down */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 10px;
+  opacity: 0.2!important;
+  border-top: 1px dashed;
+}
+.login a{
+  color: white !important;
+  opacity: 0.5;
+}
+.carimg2{
+  height: 400px;
+  border-radius: 10px;
+  width: auto;
+}
+svg{
+  height: 20px !important;
+  width: 20p !important;
+}

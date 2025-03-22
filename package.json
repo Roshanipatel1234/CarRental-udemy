@@ -1,0 +1,35 @@
+{
+  "name": "carrental",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "22.12.0",
+    "npm": "10.9.0"
+  },
+  "scripts": {
+    "client-install":"npm install --prefix client",
+    "server": "nodemon server.js",
+    "client":"npm start --prefix client",
+    "dev":"concurrently \"npm run server\"\"npm run client",
+    "start": "node server.js"
+    
+    
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.5",
+    "stripe": "^17.7.0",
+    "uuid": "^11.1.0"
+  }
+}
